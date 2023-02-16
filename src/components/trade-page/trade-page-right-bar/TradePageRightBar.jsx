@@ -95,9 +95,7 @@ function TradePageRightBar({setIsModalOpen, currentData}) {
         abi: zexStorageABI,
         functionName: 'owner',
     })
-<<<<<<< HEAD
 
-=======
     const buy = () => {
 
     }
@@ -105,7 +103,6 @@ function TradePageRightBar({setIsModalOpen, currentData}) {
     const sell = () => {
 
     }
->>>>>>> a1f256f9991ad5cb98670d606394085d33bc8a84
     return (
         <div className='trade-page-right-bar'>
             <div className='trade-page-right-bar-header p-3'>
@@ -145,7 +142,6 @@ function TradePageRightBar({setIsModalOpen, currentData}) {
                             <div className='text-xs'>
                                 Market Price
                             </div>
-<<<<<<< HEAD
                             {
                                 status === 'market' 
                                     ? <div className='text-lg font-bold'>$ { price }</div>
@@ -164,11 +160,6 @@ function TradePageRightBar({setIsModalOpen, currentData}) {
                                     )
                             }
                             
-=======
-                            <div className='text-lg text-white font-bold'>
-                                $ 1.0745
-                            </div>
->>>>>>> a1f256f9991ad5cb98670d606394085d33bc8a84
                         </Card>
                     </Col>
                     <Col xs={12}>
