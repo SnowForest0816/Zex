@@ -1,10 +1,6 @@
 import { Divider, Select } from 'antd';
-<<<<<<< HEAD
-import { React } from 'react';
-=======
 import React, { useState, useEffect } from 'react';
 import { BASE_URL } from '../../../constants/networks'
->>>>>>> a1f256f9991ad5cb98670d606394085d33bc8a84
 
 function TradePageHeader(props) {
     const handleChange = (value) => {
